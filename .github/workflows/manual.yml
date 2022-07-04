@@ -34,5 +34,10 @@ jobs:
     steps:
     - name: Ask dog name
       run: echo "Where you walking the dog?"
+  where_am_i:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: show me where I am
       run: pwd
 
