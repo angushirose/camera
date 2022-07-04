@@ -34,4 +34,5 @@ jobs:
     steps:
     - name: Ask dog name
       run: echo "Where you walking the dog?"
+      run: pwd
 
